@@ -1,0 +1,339 @@
+*{margin: 0;padding: 0;}
+.main{
+    height: 50px;
+    background-color: darkslategray;
+}
+
+.item{
+    float: left;
+    padding: 12px;
+    padding-left:80px ;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.item a{
+text-decoration: none;
+color: white;
+
+}
+.box1{
+    height: 600px;
+    width: 100%;
+    /* background-color: black; */
+}
+
+
+
+.box2{
+    height: 100%;
+    width: 10%;
+    /* background-color: yellow; */
+    float: left;
+    /* margin-left: 60px; */
+}
+.center{
+    height: 100%;
+    width: 80%;
+    /* background-color: blue; */
+    float: left;
+    
+}
+
+
+.center2{
+ height:500px;
+ width: 600px;
+ background-color: black;
+margin-left: 110px;
+margin-top:50px;
+border-radius: 30px;
+background-size:COVER ;
+
+}
+
+.fa-solid{
+
+    font-size:100px;
+    margin-top: 250px;
+    cursor: pointer;
+    color:black;
+    margin-left: 27px;
+
+    
+
+
+}
+
+.fa-solid:hover{
+color: red;
+
+}
+
+.box3{
+    height: 100%;
+    width: 10%;
+    /* background-color: greenyellow; */
+    float: left;
+    /* margin-left: 70px; */
+    
+}
+
+
+#para{
+    color: white;
+    font-size: 180px;
+    text-align: center;
+}
+
+
+.calc-main{
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.calc-head{
+    height:20% ;
+    width: 100%;
+}
+
+
+.calc-body{
+    height: 80%;
+    width: 100%;
+    background-color: slategrey;
+}
+
+
+#display{
+    height: 85%;
+    width: 90%;
+    margin: 10px 0px 0px 18px;
+    text-align: end;
+    font-size: 50px;
+    border: 0;
+    outline: 0;
+    font-family: cursive;
+}
+
+.btn{
+    height: 70px;
+    width: 70px;
+    margin: 5px 10px 5px 15px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.btn2{
+    width: 170px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box01{
+    height: 50px;
+    width: 200px;
+    background-color: darkslategrey;
+   margin-top: 50px;
+   margin-left: 404px;
+   
+}
+    
+
+
+
+#btn01{
+    float: right;
+    margin-top: 15px;
+}
+
+
+.box02{
+    height: 0px;
+    width: 200px;
+    background-color:lightslategray ;
+    margin: auto;
+}
+
+
+
+
+
+.box03{
+    height: 50px;
+    width: 200px;
+    background-color:lightcoral;
+   /* margin-top: 50px;
+   margin-left: 400px; */
+   margin: auto;
+    
+}
+
+
+#btn03{
+    float: right;
+    margin-top: 15px;
+}
+
+
+.box04{
+    height: 0px;
+    width: 200px;
+    background-color: lightpink;
+    margin: auto;
+}
+
+
+
+
+
+.box05{
+    height: 50px;
+    width: 200px;
+    background-color: lightseagreen;
+   /* margin-top: 50px;
+   margin-left: 400px; */
+   margin: auto;
+    
+}
+
+
+#btn05{
+    float: right;
+    margin-top: 15px;
+}
+
+
+.box06{
+    height: 0px;
+    width: 200px;
+    background-color: lightblue;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main1{
+    height: 150px;
+    width: 50%;
+    margin: auto;
+    margin-top: 250pX;
+    
+}
+.hour{
+
+    height: 100%;
+    width:33.3%;
+    float: left;
+    background-color: lightsalmon;
+     font-size:50px;
+     text-align: center;
+     
+}
+
+
+.minute{
+
+    height: 100%;
+    width:33.4%;
+    float: left;
+    background-color: lightskyblue;
+    
+    font-size:50px;
+    text-align: center;
+    
+
+}
+
+.sec{
+
+    height: 100%;
+    width:33.3%;
+    float: left;
+    background-color:lightcoral;
+   
+    font-size:50px;
+    text-align: center;
+
+    
+} 
+
+
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(myclock.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+#hour2,
+#minute2,
+  #second2{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour2{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute2{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#second2{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}

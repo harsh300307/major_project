@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="myjstask.css">
+
+
+</head>
+
+<body>
+
+    <ul class="main">
+
+        <li class="item"><a href="">Home</a></li>
+        <li class="item"><a href="">About</a></li>
+        <li class="item"><a href="">Service</a></li>
+        <li class="item"><a href="">Contact</a></li>
+
+    </ul>
+
+    <div class="box1">
+
+        <div class="box2">
+            <i class="fa-solid fa-caret-left" id="box2"></i>
+        </div>
+
+        <div class="center" >
+
+            <div class="center2" id="slider">
+                <p id="para"></p>    
+            </div>
+            
+        </div>
+
+        <div class="box3">
+            <i class="fa-solid fa-caret-right" id="box3"></i>
+        </div>
+    </div>
+
+  <div class="calc-main">
+    <div class="calc-head">
+        <input type="text" id="display">
+    </div>
+
+  <div class="calc-body">
+<div>
+  <input type="button" value="AC" class="btn" onclick="display.value=''">
+  <input type="button" value="DEL" class="btn" onclick="display.value= display.value .toString().slice(0,-1)"> 
+  <input type="button" value="." class="btn" onclick="display.value+='.'">
+  <input type="button" value="/" class="btn" onclick="display.value+='/'">
+</div>
+
+<div>
+    <input type="button" value="7" class="btn" onclick="display.value+='7'">
+    <input type="button" value="8" class="btn" onclick="display.value+= '8'"> 
+    <input type="button" value="9" class="btn" onclick="display.value+='9'">
+    <input type="button" value="*" class="btn" onclick="display.value+='*'">
+  </div>
+  
+  <div>
+    <input type="button" value="4"class="btn"onclick="display.value+='4'">
+    <input type="button" value="5"class="btn"onclick="display.value+='5'">
+    <input type="button" value="6"class="btn"onclick="display.value+='6'">
+    <input type="button" value="-"class="btn"onclick="display.value+='-'">
+
+</div>
+  <div>
+    <input type="button" value="1" class="btn"onclick="display.value+='1'">
+    <input type="button" value="2" class="btn"onclick="display.value+='2'">
+    <input type="button" value="3" class="btn"onclick="display.value+='3'">
+    <input type="button" value="+" class="btn"onclick="display.value+='+'">
+  </div>
+ 
+  <div>
+    <input type="button" value="00" class="btn"onclick="display.value+='00'">
+    <input type="button" value="0" class="btn"onclick="display.value+='0'">
+    <input type="button" value="=" class="btn btn2"onclick="display.value=eval(display.value)">
+    
+  </div>
+ 
+
+
+ </div>
+ </div>
+
+   
+   
+<div class="main1">
+  <div class="hour"> <h1 id="h"></h1></div>
+ <div class="minute"><h1 id="min"></h1></div>
+ <div class="sec"><h1 id="s"></h1></div>
+</div>
+
+
+<div  id="clockContainer">
+    <div id="hour2"></div>
+    <div id="minute2"></div>
+    <div id="second2"></div>
+</div>
+
+
+<div class="box01">
+  <button type="button" id="btn01" >click</button>
+</div>
+
+<div class="box02" id="box02"></div>
+
+
+
+<div class="box03" >
+  <button type="button" id="btn03">click</button>
+  </div>
+  
+  <div class="box04" id="box04"></div>
+
+
+
+  <div class="box05" >
+    <button type="button" id="btn05">click</button>
+    </div>
+    
+    <div class="box06" id="box06"></div>
+  
+  
+
+
+</body> 
+</html>
+<script src="myjstask.js"></script>
